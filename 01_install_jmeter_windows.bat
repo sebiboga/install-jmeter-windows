@@ -27,13 +27,9 @@ del /F "C:\JMeter\apache-jmeter-5.4.1.zip"
 )
 
 if exist C:\JMeter\apache-jmeter-5.4.1\lib\ext\jmeter-plugins-manager-1.6.jar (
-    echo --- C:\JMeter\apache-jmeter-5.4.1\lib\ext\jmeter-plugins-manager-1.6.jar already exist
-    
+    echo --- C:\JMeter\apache-jmeter-5.4.1\lib\ext\jmeter-plugins-manager-1.6.jar already exist 
 ) else ( 
 powershell -command "Invoke-WebRequest   -Uri 'https://jmeter-plugins.org/get/' -OutFile 'C:\JMeter\apache-jmeter-5.4.1\lib\ext\jmeter-plugins-manager-1.6.jar'"
 )
 
-
 @echo on
-      
-
