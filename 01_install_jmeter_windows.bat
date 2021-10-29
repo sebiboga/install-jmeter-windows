@@ -32,4 +32,5 @@ if exist C:\JMeter\apache-jmeter-5.4.1\lib\ext\jmeter-plugins-manager-1.6.jar (
 powershell -command "Invoke-WebRequest   -Uri 'https://jmeter-plugins.org/get/' -OutFile 'C:\JMeter\apache-jmeter-5.4.1\lib\ext\jmeter-plugins-manager-1.6.jar'"
 )
 
+c:\JMeter\apache-jmeter-5.4.1\bin\jmeter.bat
 @echo on
