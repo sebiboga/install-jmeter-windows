@@ -1,17 +1,13 @@
 @echo off
 if exist C:\ (
-    echo let's begin
-    
+    echo let's begin   
 ) else echo error: C drive doesn't exist. please update this script to point to your HDD letter
 
 if exist C:\JMeter (
-    echo --- JMeter already exist
-    
-) else ( 
-    
+    echo --- JMeter already exist 
+) else (  
     mkdir C:\JMeter
     echo --- JMeter folder created
-    
     )
 
 
@@ -39,5 +35,5 @@ powershell -command "Invoke-WebRequest   -Uri 'https://jmeter-plugins.org/get/' 
 
 
 @echo on
-    
+      
 
