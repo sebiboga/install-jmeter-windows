@@ -1,5 +1,6 @@
 @echo off
 if exist C:\ (
+    echo script developed by sebiboga
     echo let's begin   
 ) else echo error: C drive doesn't exist. please update this script to point to your HDD letter
 
